@@ -1,0 +1,514 @@
+.header {
+    width: 100%;
+    height: 60px;
+    background: rgba(27, 37, 58, 0.942);
+
+}
+
+.header__logo {
+    color: #FFF;
+    font-family: Franklin Gothic Medium;
+    font-size: 23px;
+    line-height: 60px;
+    padding-left: 350px;
+    float: left;
+    margin-right: 350px;
+}
+
+
+
+.header__menu a {
+    color: #FFF;
+    text-decoration: none;
+}
+
+.header__menu a:hover {
+    color: #000;
+}
+
+li {
+    float: left;
+    font-size: 16px;
+    color: #fdfbfb;
+    line-height: 60px;
+    margin-right: 40px;
+    text-transform: uppercase;
+
+
+}
+
+.main {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    width: 100%;
+    height: calc(100% - 60px);
+    background: url(../img/photo-max.png) 95% 100%/auto 85% no-repeat, url(../img/fon.png) center/cover no-repeat;
+}
+
+
+.main__contener {
+    float: left;
+    padding: 300px 0px 0px 101px;
+    color: rgb(16, 6, 46);
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.main__contener h1 {
+    font-size: 60px;
+    font-weight: bold;
+
+}
+
+.main__contener h4 {
+    font-size: 22px;
+    margin-top: 40px;
+    color: rgb(163, 160, 160);
+}
+
+.main__contener input {
+    height: 30px;
+    text-align: center;
+    font-size: 16px;
+    margin: 50px 14px 0px 14px;
+    color: rgb(163, 160, 160);
+    background: none;
+    border-radius: 5px;
+    border: 2px solid rgb(163, 160, 160);
+    ;
+    padding: 0px 15px 0px 15px;
+    cursor: pointer;
+}
+
+.about__me__contener {
+    width: 100%;
+    height: 663px;
+    margin-top: 31px;
+    display: block;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.about__me__contener h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+
+}
+
+.about__me__contener hr {
+    width: 80px;
+    height: 5px;
+    background-color: rgb(247, 131, 8);
+    border: 2px;
+    margin: 0 auto;
+
+}
+
+.photo {
+    margin: 48px auto;
+}
+
+.title__contener {
+    width: 740px;
+    height: 110px;
+    display: block;
+    text-align: left;
+    margin: 0px auto;
+
+}
+
+.title__contener1 {
+    margin-bottom: 40px;
+}
+
+.about__me__contener input {
+    width: 150px;
+    height: 30px;
+    border: 2px solid #525151;
+    background: url(../img/ICO.png) 5% 50%/auto 50% no-repeat;
+    border-radius: 5px;
+
+    margin-top: 20px;
+    font-size: 16px;
+    padding-left: 20px;
+    text-align: center;
+    color: #000;
+    cursor: pointer;
+}
+
+.skills {
+    width: 100%;
+    height: 523px;
+    background: url(../img/fon2.png) 0% 0%/auto 80% no-repeat;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.skills h2 {
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 100px;
+    margin-bottom: 10px;
+
+}
+
+.skills hr {
+    width: 65px;
+    height: 5px;
+    background: #e68609;
+    margin: 0 auto;
+
+}
+
+.bloc {
+    width: 1100px;
+    margin: 100px auto;
+}
+
+.bloc1 {
+    float: left;
+    margin-right: 70px;
+}
+
+.bloc1__comp {
+    padding-bottom: 20px;
+}
+
+.bloc1 h4 {
+    font-size: 16px;
+    color: #e68609;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+.bloc2 {
+    float: left;
+    margin-right: 70px;
+}
+
+.bloc2__develop {
+    padding-bottom: 20px;
+}
+
+.bloc2 h4 {
+    font-size: 16px;
+    color: #e68609;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+.bloc3 {
+    float: left;
+    margin-right: 70px;
+}
+
+.bloc3__rocket {
+    padding-bottom: 15px;
+}
+
+.bloc3 h4 {
+    font-size: 16px;
+    color: #e68609;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+.bloc4 {
+    float: left;
+
+}
+
+.bloc4__megaphone {
+    padding-bottom: 20px;
+}
+
+.bloc4 h4 {
+    font-size: 16px;
+    color: #e68609;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+.cases {
+    width: 100%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+
+}
+
+.cases h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+
+}
+
+.cases hr {
+    width: 65px;
+    height: 5px;
+    background: #e68609;
+    margin: 0 auto;
+    margin-bottom: 50px;
+
+}
+
+.cases p {
+    text-align: center;
+    color: #706f6f;
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+
+.slide {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.cases__bloc {
+    width: 1170px;
+    margin: 0 auto;
+
+}
+
+.cases__bloc-1 {
+    float: left;
+    width: 210px;
+    margin-right: 100px;
+
+}
+
+.cases__bloc-1 h4 {
+    font-weight: bold;
+    font-size: 18px;
+    margin: 5px 0px 5px 0px;
+}
+
+.cases__bloc-1 p {
+    color: #706f6f;
+}
+
+.cases__bloc-1 input {
+    border: 2px solid #63B5AE;
+    border-radius: 5px;
+    width: 200px;
+    height: 44px;
+    text-align: center;
+    background-color: #63B5AE;
+    font-size: 18px;
+    color: #FFF;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.cases__bloc-2 {
+    width: 860px;
+    float: left;
+}
+
+.cases__bloc-2 h4 {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 10px;
+
+}
+
+.cases__bloc-2 p {
+    font-size: 18px;
+    color: #706f6f;
+    line-height: 1.2;
+    margin-bottom: 100px;
+}
+
+.calculation {
+    float: left;
+    display: block;
+    width: 100%;
+    height: 785px;
+    margin: 0 auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.calculation h2 {
+    font-size: 36px;
+    margin-bottom: 65px;
+    text-align: center;
+    font-weight: bold;
+}
+
+form {
+    width: 890px;
+    margin: 0 auto;
+
+}
+
+.calculation__position1 h3 {
+    font-size: 22px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+select {
+    width: 890px;
+    height: 47px;
+    background-color: #f3f1f1;
+}
+
+.calculation__position2 h3 {
+    font-size: 22px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+.calculation__position3 h3 {
+    font-size: 22px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+.calculation hr {
+    width: 890px;
+    border: 1px solid rgb(204, 202, 202);
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+select {
+    font-size: 14px;
+    color: rgb(163, 160, 160);
+    padding-left: 10px;
+}
+
+.term h4 {
+    font-size: 21px;
+    font-weight: bold;
+    float: left;
+
+}
+
+.term p {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: right;
+
+}
+
+.price h4 {
+    font-size: 21px;
+    font-weight: bold;
+    float: left;
+
+}
+
+.price p {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: right;
+}
+
+.statistica {
+    display: block;
+    width: 100%;
+    height: 500px;
+    background: url(../img/fon3.png) 0% 0%/auto 80% no-repeat;
+    margin-top: 150px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.statistica h2 {
+    font-size: 28px;
+    margin: 0 auto;
+    padding-top: 80px;
+    padding-bottom: 15px;
+}
+
+.statistica hr {
+    width: 72px;
+    height: 4px;
+    background: #e68609;
+    margin: 0 auto;
+    margin-bottom: 70px;
+}
+
+.statistica__bloc {
+    width: 1030px;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+
+}
+
+.statistica__bloc1 {
+    float: left;
+    display: block;
+    margin-right: 120px;
+}
+
+.statistica__bloc1 h4 {
+    font-size: 40px;
+    font-weight: bold;
+    margin: 12px;
+}
+
+.statistica__bloc1 p {
+    font-weight: bold;
+}
+
+.statistica__bloc2 {
+    float: left;
+    display: block;
+    margin-right: 120px;
+}
+
+.statistica__bloc2 h4 {
+    font-size: 40px;
+    font-weight: bold;
+    margin: 15px;
+}
+
+.statistica__bloc2 p {
+    font-weight: bold;
+}
+
+.statistica__bloc3 {
+    float: left;
+    display: block;
+    margin-right: 120px;
+}
+
+
+.statistica__bloc3 h4 {
+    font-size: 40px;
+    font-weight: bold;
+    margin: 15px;
+}
+
+.statistica__bloc3 p {
+    font-weight: bold;
+}
+
+.statistica__bloc4 {
+    float: left;
+    display: block;
+
+}
+
+.statistica__bloc4 h4 {
+    font-size: 40px;
+    font-weight: bold;
+    margin: 15px;
+}
+
+.statistica__bloc4 p {
+    font-weight: bold;
+}
